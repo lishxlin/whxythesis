@@ -6,6 +6,8 @@ An Unofficial STEM Graduation Thesis Template **document class** in LaTeX for Wu
 
 See [VERSION](./VERSION) to get current version.
 
+💡使用 `Debian GNU/Linux` 编写，其他平台可能存在偏差，使用时注意修正。
+
 ## 环境要求
 
 为了获得最佳体验，请使用 [TeX Live 2025](https://www.tug.org/texlive/) 或更高版本。
