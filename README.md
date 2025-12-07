@@ -6,8 +6,6 @@ An Unofficial STEM Graduation Thesis Template **document class** in LaTeX for Wu
 
 See [VERSION](./VERSION) to get current version.
 
----
-
 ## 环境要求
 
 为了获得最佳体验，请使用 [TeX Live 2025](https://www.tug.org/texlive/) 或更高版本。
@@ -21,8 +19,6 @@ See [VERSION](./VERSION) to get current version.
 - `SimSun` ((C) Copyright ZHONGYI Electronic Co. 2001)
 
 - `FangSong_GB2312` ((C) Copyright GreatWall Computer Co. 1994)
-
----
 
 ## 使用方式
 
@@ -47,19 +43,13 @@ See [VERSION](./VERSION) to get current version.
 
 在[当前版本](./VERSION)下，您可以直接对 `cls` 文件进行修改。
 
----
-
 ## 免责声明
 
 请参阅[DISCLAIMERS](./DISCLAIMERS)。
 
----
-
 ## 资源文件版权信息
 
 请参阅[ASSETS-COPYRIGHTS](./ASSETS-COPYRIGHTS)。
-
----
 
 ## 开放源码许可
 
@@ -83,8 +73,6 @@ See [VERSION](./VERSION) to get current version.
 ```
 
 See full [LICENSE](./LICENSE).
-
----
 
 ## 动机
 
@@ -117,8 +105,6 @@ See full [LICENSE](./LICENSE).
 - 搜索引擎
 
 - 以及各种让这个模板从无到有的工具们
-
----
 
 ## TODO
 
