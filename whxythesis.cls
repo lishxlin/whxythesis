@@ -386,6 +386,9 @@
 \@addtoreset{figure}{section}
 \makeatother
 \renewcommand{\theequation}{式\thesection.\arabic{equation}}
+\makeatletter
+\@addtoreset{equation}{section}
+\makeatother
 
 
 \DeclareCaptionLabelSeparator{twospace}{\ \ }
