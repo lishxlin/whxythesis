@@ -110,7 +110,7 @@ See full [LICENSE](./LICENSE).
 
 ## TODO
 
-请参阅[本仓库的 Projects](https://github.com/lishxlin/whxythesis/projects)
+请参阅[MISC仓库的 Projects](https://github.com/lishxlin/whxythesis-misc/projects)
 
 ---
 
