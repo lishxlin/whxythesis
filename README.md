@@ -79,6 +79,7 @@ See [VERSION](./VERSION) to get current version.
 
 <details>
 	<summary>展开</summary>
+	
     ```latex
     \documentclass{whxythesis}
     
