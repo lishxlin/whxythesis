@@ -16,7 +16,13 @@ See [VERSION](./VERSION) to get current version.
 
 目前仅在 LuaLaTeX 下进行了测试，对于 XeLaTeX 兼容性未知，因此推荐使用 LuaLaTeX。
 
-本文档类需要使用下列版权字体，请预先将它们安装到系统的字体目录下：
+### 字体要求
+
+本文档类使用 CTeX `fontset=ubuntu`，您需要安装[思源宋体、思源黑体](https://github.com/notofonts/noto-cjk)，在 `Debian GNU/Linux`及其衍生发行版下，这很好解决：
+
+`apt install fonts-noto-cjk fonts-noto-cjk-extra`
+
+本文档类同时需要使用下列版权字体，请预先将它们安装到系统的字体目录下：
 
 - `SimSun` ((C) Copyright ZHONGYI Electronic Co. 2001)
 
