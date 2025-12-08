@@ -1,6 +1,6 @@
 # whxythesis
 
-此**文档类**为武汉学院理工科类毕业论文LaTeX模板。
+此**文档类**为武汉学院理工科类**本科**毕业论文LaTeX模板。
 
 An Unofficial STEM Graduation Thesis Template **document class** in LaTeX for Wuhan College.
 
