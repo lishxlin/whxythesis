@@ -79,7 +79,7 @@ See [VERSION](./VERSION) to get current version.
 
 <details>
 	<summary>展开</summary>
-    	```latex
+    ```latex
     \documentclass{whxythesis}
     
     \whxystuadvisor{}                       % 教师名称+职称
