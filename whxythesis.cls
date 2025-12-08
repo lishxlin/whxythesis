@@ -42,7 +42,7 @@
 
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{whxythesis}[2025/12/07 2026 An Up-to-date thesis document class for Wuhan College]
-\LoadClass[12pt, a4paper, zihao=-4, AutoFakeBold, AutoFakeSlant]{ctexart}
+\LoadClass[12pt, a4paper, zihao=-4, AutoFakeBold, AutoFakeSlant, fontset=ubuntu]{ctexart}
 
 \makeatletter
 \RequirePackage{geometry}
@@ -66,7 +66,7 @@
 \RequirePackage{adjustbox}
 
 % Set fonts
-\setCJKfamilyfont{zhfs}{FangSong_GB2312}
+\setCJKfamilyfont{zhfs}{FangSong_GB2312}[AutoFakeBold = 1.2]
 \setCJKfamilyfont{zhfsb}{FangSong_GB2312}[FakeBold = 1.2]
 \newfontfamily{\simsunfont}{SimSun}[
   AutoFakeBold = 3,
@@ -222,12 +222,12 @@
     \begin{minipage}{0.5\textwidth}
       \linespread{2}
       \zihao{4}
-      \fangsong
+      \CJKfamily{zhfs}
       作者专业：\quad \textbf{\CJKfamily{zhfsb} \stumajor} \\
       作者学号：\quad \textbf{\fangsonggb \stuid} \\
       作者签名：\quad \textbf{\CJKfamily{zhfsb} \ } \\
       \vspace{1pt}
-      \hfill \textbf{\fangsonggb 年\hspace*{1.2\ccwd}月\hspace*{2\ccwd}日} \hspace*{60pt}
+      \hfill \textbf{\CJKfamily{zhfs} 年\hspace*{1.2\ccwd}月\hspace*{2\ccwd}日} \hspace*{60pt}
     \end{minipage}
   }
 }
@@ -404,7 +404,7 @@
   font = {bf},
   labelfont = {bf},
   justification = centering,
-  skip = 0pt,
+  skip = 1mm,
   labelsep = twospace
 }
 
