@@ -80,45 +80,45 @@ See [VERSION](./VERSION) to get current version.
 <details>
 	<summary>展开</summary>
 	
-    ```latex
-    \documentclass{whxythesis}
+```latex
+\documentclass{whxythesis}
     
-    \whxystuadvisor{}                       % 教师名称+职称
-    \whxystuclass{}                         % 你的班级
-    \whxystucolle{}                         % 你的学院
-    \whxystugradeyear{}                     % 你的毕业届次
-    \whxystuid{}                            % 你的学号
-    \whxystumajor{}                         % 你的专业名称
-    \author{}                               % 你的名字（中文）
-    \whxyauthoreng{}                        % 你的英文名字（一般是拼音）
-    \title{}                                % 论文标题（中文）
-    \whxytitleeng{}                         % 英文论文标题
-    \date{}                                 % 日期（X年X月X日）
-    \addbibresource[]{}                     % bib文件（及其设置）
+\whxystuadvisor{}                       % 教师名称+职称
+\whxystuclass{}                         % 你的班级
+\whxystucolle{}                         % 你的学院
+\whxystugradeyear{}                     % 你的毕业届次
+\whxystuid{}                            % 你的学号
+\whxystumajor{}                         % 你的专业名称
+\author{}                               % 你的名字（中文）
+\whxyauthoreng{}                        % 你的英文名字（一般是拼音）
+\title{}                                % 论文标题（中文）
+\whxytitleeng{}                         % 英文论文标题
+\date{}                                 % 日期（X年X月X日）
+\addbibresource[]{}                     % bib文件（及其设置）
     
-    \begin{document}
-    \easygenconstants                       % 快速打印头三页（自动\clearpage）
+\begin{document}
+\easygenconstants                       % 快速打印头三页（自动\clearpage）
     
-    \begin{whxyabstract}                    % 摘要（自动\clearpage）
-    {}{}{}{}                                % {中文摘要}{中文关键词}{英文摘要}{英文关键词}
-    \end{whxyabstract}                      %
+\begin{whxyabstract}                    % 摘要（自动\clearpage）
+{}{}{}{}                                % {中文摘要}{中文关键词}{英文摘要}{英文关键词}
+\end{whxyabstract}                      %
     
-    \genwhxytoc                             % 打印目录（自动\clearpage）
+\genwhxytoc                             % 打印目录（自动\clearpage）
     
-    \whxystartcontents                      % 标记正文开始并设置相关样式（自动\clearpage）
-    % ...Your main contents
+\whxystartcontents                      % 标记正文开始并设置相关样式（自动\clearpage）
+% ...Your main contents
     
-    \whxystartending                        % 标记正文结束，开始撰写结语（自动\clearpage）
-    % ...Your ending texts...
+\whxystartending                        % 标记正文结束，开始撰写结语（自动\clearpage）
+% ...Your ending texts...
     
-    \easyprintbib                           % 打印参考文献（引用）（自动\clearpage）
+\easyprintbib                           % 打印参考文献（引用）（自动\clearpage）
     
-    \whxyacks                               % 标记致谢页开始（自动\clearpage）
-    % ...Your acknowledgments...
+\whxyacks                               % 标记致谢页开始（自动\clearpage）
+% ...Your acknowledgments...
     
-    % \whxyemptypage{}                      % 如果你有附录之类的，请使用这个（自动、clearpage）
-    % ...If you have some appendixes...     % {标题}
-    ```
+% \whxyemptypage{}                      % 如果你有附录之类的，请使用这个（自动、clearpage）
+% ...If you have some appendixes...     % {标题}
+```
 </details>
 
 ### 实用片段
