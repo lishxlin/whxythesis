@@ -63,6 +63,7 @@
 \RequirePackage{layout}
 \RequirePackage{multirow}
 \RequirePackage{array}
+\RequirePackage{adjustbox}
 
 % Set fonts
 \setCJKfamilyfont{zhfs}{FangSong_GB2312}
