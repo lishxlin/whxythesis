@@ -18,15 +18,41 @@ See [VERSION](./VERSION) to get current version.
 
 ### 字体要求
 
-本文档类使用 CTeX `fontset=ubuntu`，您需要安装[思源宋体、思源黑体](https://github.com/notofonts/noto-cjk)，在 `Debian GNU/Linux`及其衍生发行版下，这很好解决：
+本文档类使用 CTeX `fontset=ubuntu`，您需要安装[思源CJK字体家族](https://github.com/notofonts/noto-cjk)，[文鼎ＰＬ简中楷(AR PL KaitiM GB)](http://www.arphic.com.tw/)。
 
-`apt install fonts-noto-cjk fonts-noto-cjk-extra`
+在 `Debian GNU/Linux`及其衍生发行版下，这很好解决：
+
+`apt install fonts-noto-cjk fonts-noto-cjk-extra fonts-arphic-gkai00mp`
+
+您还可以通过下载并解压 `.deb` 来快速获取对应的字体：
+
+[fonts-noto](https://packages.debian.org/sid/fonts-noto) 家族：
+
+- [fonts-noto-cjk](https://packages.debian.org/trixie/all/fonts-noto-cjk/download)
+
+- [fonts-noto-cjk-extra](https://packages.debian.org/trixie/all/fonts-noto-cjk-extra/download)
+
+[AR PL KaitiM GB](http://www.arphic.com.tw/):
+
+- [fonts-arphic-gkai00mp](https://packages.debian.org/sid/all/fonts-arphic-gkai00mp/download)
 
 本文档类同时需要使用下列版权字体，请预先将它们安装到系统的字体目录下：
 
 - `SimSun` ((C) Copyright ZHONGYI Electronic Co. 2001)
 
-- `FangSong_GB2312` ((C) Copyright GreatWall Computer Co. 1994)
+- `FangSong_GB2312` ((C) Copyright GreatWall Computer Co. 1994) 
+	
+	> 以下链接仅为信息来源参考，旨在展示该字体曾由教育机构等公开提供。字体版权归原始开发商所有。
+
+	- [SCNU](https://life.scnu.edu.cn/a/20220309/5508.html)
+	
+	- [XXMU](https://www.xxmu.edu.cn/lifescience/info/1102/2765.htm)
+	
+	- [YAU](https://dbxb.yau.edu.cn/info/1052/2656.htm)
+	
+	- [LZUFE](https://kyjf.lzufe.edu.cn/info/1032/1106.htm)
+	
+	- [LCU](https://rwskc.lcu.edu.cn/xzzx/539885.htm)
 
 ## 使用方式
 
