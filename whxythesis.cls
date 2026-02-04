@@ -1,5 +1,6 @@
 %% whxythesis.cls
 %% Copyright 2025-  ShXlin. Li
+%% https://github.com/lishxlin/whxythesis
 %
 % This work may be distributed and/or modified under the
 % conditions of the LaTeX Project Public License, either version 1.3
