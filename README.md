@@ -105,6 +105,8 @@ See [VERSION](./VERSION) to get current version.
 
 % \whxyemptypage{}
 % ...If you have some appendixes...
+
+\end{document}
 ```
 
 ### 全文解释
@@ -150,6 +152,8 @@ See [VERSION](./VERSION) to get current version.
     
 % \whxyemptypage{}                      % 如果你有附录之类的，请使用这个（自动、clearpage）
 % ...If you have some appendixes...     % {标题}
+
+\end{document}
 ```
 </details>
 
