@@ -344,14 +344,12 @@
 \setcounter{tocdepth}{2}
 \newcommand{\genwhxytoc}{
   \clearpage
-  \thispagestyle{plainplus}
+  \pagestyle{plainplus}
   \vspace*{0.01pt}
-
-  \vbox{
-    \vspace*{-12pt}
-    \tableofcontents
-  }
+  \vspace*{-12pt}
+  \tableofcontents
   \clearpage
+  \pagestyle{fancy}
 }
 
 \titlecontents{section}[10pt]{%
