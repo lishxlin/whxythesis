@@ -379,11 +379,11 @@
 ]
 
 % Set style of tables, figures
-\renewcommand{\thetable}{\thesection.\arabic{table}}
+\renewcommand{\thetable}{表\thesection.\arabic{table}}
 \makeatletter
 \@addtoreset{table}{section}
 \makeatother
-\renewcommand{\thefigure}{\thesection.\arabic{figure}}
+\renewcommand{\thefigure}{图\thesection.\arabic{figure}}
 \makeatletter
 \@addtoreset{figure}{section}
 \makeatother
