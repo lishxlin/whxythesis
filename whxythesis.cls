@@ -489,7 +489,7 @@
 \ProvideDocumentCommand{\whxystartending}{}{
   \clearpage
   \phantomsection
-  \thispagestyle{plainplus}
+  \pagestyle{plainplus}
   \addcontentsline{toc}{section}{结语}
   \begin{center}
     \raisebox{-8pt}[0pt][0pt]{
@@ -508,7 +508,7 @@
 \ProvideDocumentCommand{\easyprintbib}{}{
   \clearpage
   \phantomsection
-  \thispagestyle{plainplus}
+  \pagestyle{plainplus}
   \addcontentsline{toc}{section}{参考文献}
   \whxyprintbibliography
 }
@@ -516,7 +516,7 @@
 \ProvideDocumentCommand{\whxyacks}{}{
   \clearpage
   \phantomsection
-  \thispagestyle{plainplus}
+  \pagestyle{plainplus}
   \addcontentsline{toc}{section}{致谢}
   \begin{center}
     \raisebox{-8pt}[0pt][0pt]{
